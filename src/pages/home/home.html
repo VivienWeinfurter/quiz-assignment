@@ -1,14 +1,14 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Quiz
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-label class="title">Are you a fast thinker?</ion-label>
+  <ion-label class="rules">Be careful - You always have one guess less than options!</ion-label>
+  <img class='img' src='../assets/imgs/question.svg'><br>
+  <button ion-button round (click)="startQuiz()">Start Quiz</button>
 </ion-content>

@@ -1,0 +1,11 @@
+<ion-content padding>
+    <p class='title'>Summary</p>
+    <ion-list class='summary'>
+        <p>Correct answers: {{correctAnswerCounter}} / {{questions.length}}</p>
+        <p>Correctness: {{correctness}}%</p>
+        <p>Duration: {{duration}} seconds</p><br>
+        <p>{{feedback}}</p>
+        <img src="{{resultImage}}" [width]='imgSize'>
+    </ion-list>
+    <button ion-button round (click)="startAgain()">Play Quiz Again</button>
+</ion-content>

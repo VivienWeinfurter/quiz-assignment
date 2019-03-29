@@ -1,0 +1,21 @@
+<ion-content padding>
+  <p class='title'>Thinking Quiz</p>
+  <p class='question'>Question {{questionCounter}}/{{questions.length}}: Are you thinking fast enough?</p>
+  <p class='quiz'>{{activeQuestion?.quiz}}</p>
+  <ion-list radio-group>
+    <ion-item *ngFor="let option of activeQuestion?.options; let i=index">
+      <ion-label class='option'>{{option}}</ion-label>
+      <ion-radio *ngIf=!isCorrect
+          (ionSelect)="checkOption(i, activeQuestion)">
+      </ion-radio>
+    </ion-item>
+  </ion-list>
+  <p class='feedback'>{{feedback}}</p>
+  <ion-label *ngIf=!isCorrect>
+    Number of guesses left:
+    {{(activeQuestion?.options.length) - optionCounter}}
+  </ion-label>
+  <p *ngIf=isCorrect>
+  <button ion-button round (click)="setQuestion()">Next Question</button>
+  </p>
+</ion-content>

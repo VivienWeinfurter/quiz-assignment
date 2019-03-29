@@ -1,0 +1,33 @@
+page-question {
+    ion-content {
+        .title.question.quiz.option.feedback {
+            font-family: Helvetica;
+        }
+        .title {
+            font-size: 3em;
+            font-weight: bold;
+        }
+        .question {
+            font-size: 1.5em;
+        }
+        .quiz {
+            font-size: 1.5em;
+            font-weight: bold;
+            line-height: 150%;
+        }
+        .option {
+            font-size: 1em;
+        }
+        .ionic {
+            padding-right: 0.3em;
+        }
+        .feedback {
+            font-size: 1em;
+        }
+        .img {
+            width: 20%;
+        }
+        
+    }
+
+}

@@ -1,0 +1,56 @@
+{
+	"questions": [
+		{
+			"quiz":"There a water lilies on a lake. Each day, the amount of water lilies doubles. After 20 days, there are so many water lilies that the entire lake is covered. After how many days was half of the lake covered?",
+			"options": [
+				"10 days",
+				"15 days",
+				"19 days"
+				],
+			"correctOption": "2",
+			"feedback": "After 19 days: A doubling of water lilies each day means that one day before the entire lake is covered, half of it will be covered."
+		},
+		
+		{
+			"quiz": "A racket and a ball cost $1.10 in total. The racket costs $1 more than the ball. How much does the ball cost?",
+			"options": [
+				"5¢",
+				"10¢"
+				],
+			"correctOption": "0",
+			"feedback": "5 Cent: ball 5 Cent + racket $1.05 = $1.10"
+		},
+
+		{
+			"quiz": "There are two hospitals in a city, a small and a bigger one. In which of them is the likelihood higher of more boys than girls being born in one day? (Provided that girls and boys are on average born equally frequently).",
+			"options": [
+				"The big hospital",
+				"The small hospital"
+				],
+			"correctOption": "1",
+			"feedback": "In the small hospital: A divergence from the average outcome is more likely, the smaller the number of cases."
+		},
+	
+		{
+			"quiz": "Marc looks at Anne, Anne looks at Simon. Marc is married, Simon is single. Does a married person look at an unmarried person?",
+			"options": [
+				"No",
+				"Maybe",
+				"Yes"
+				],
+			"correctOption": "2",
+			"feedback": "Yes: If Anne is not married, the married Marc will look at her. If Anne is married, she will look at the unmarried Simon."
+		},
+
+		{
+			"quiz": "Five machines produce five plates in five hours. How much time do three machines need for three plates?",
+			"options": [
+				"5 hours",
+				"6 hours",
+				"3 hours"
+				],
+			"correctOption": "0",
+			"feedback": "5 hours: The amount of plates per machine remains the same."
+		}
+	]
+}

@@ -1,3 +1,17 @@
 page-home {
+    ion-content {
+        .title {
+            font-size: 3em;
+            font-family: Helvetica;
+            font-weight: bold;
+        }
+        .rules {
+            font-size: 1em;
+            font-family: Helvetica;
+        }
+        .img {
+            width: 30%;
+        }
+    }
 
 }
